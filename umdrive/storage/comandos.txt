@@ -4,7 +4,7 @@ source /home/henrique/ITI/venv/bin/activate
 
 ----------NUM TERMINAL AO LADO ----------
 
--- Fazer upload de um ficheiro -- (Substitui o caminho (o que esta em "") pelo ficheiro que quiseres enviar. O caminho deve tem de ser o da Maquina Virtual)
+-- Fazer upload de um ficheiro -- (Substitui o caminho pelo ficheiro que quiseres enviar)
 curl -F "file=@/home/henrique/teste.txt" http://localhost:5000/api/files
     
     Se o upload correr bem, vais ver algo como:
