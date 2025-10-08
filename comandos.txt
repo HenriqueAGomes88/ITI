@@ -1,0 +1,3 @@
+-- Entrar no ambiente virtual -- 
+source /home/henrique/ITI/venv/bin/activate
+
